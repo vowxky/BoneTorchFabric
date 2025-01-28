@@ -24,7 +24,6 @@ public class Bonetorchfabric implements ModInitializer {
     public void onInitialize() {
         registerBlocks();
         registerItems();
-        setupRenderLayers();
     }
 
     private void registerBlocks() {
@@ -37,11 +36,6 @@ public class Bonetorchfabric implements ModInitializer {
     private void registerItems() {
         BONE_TORN_ITEM = registerBlockItem("bone_torch",
                 new VerticallyAttachableBlockItem(BONE_TORCH, WALL_BONE_TORCH, new Item.Settings(), Direction.DOWN));
-    }
-
-    private void setupRenderLayers() {
-        BlockRenderLayerMap.INSTANCE.putBlock(BONE_TORCH, RenderLayer.getCutout());
-        BlockRenderLayerMap.INSTANCE.putBlock(WALL_BONE_TORCH, RenderLayer.getCutout());
     }
 
     private static Block registerOnlyBlock(String name, Block block) {
