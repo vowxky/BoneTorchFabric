@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "bonetorchfabric",
+  "version": "${version}",
+  "name": "BoneTorchFabric",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bonetorchfabric/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "vowxky.bonetorchfabric.client.BonetorchfabricClient"
+    ],
+    "main": [
+      "vowxky.bonetorchfabric.Bonetorchfabric"
+    ]
+  },
+  "mixins": [
+    "bonetorchfabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
