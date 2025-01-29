@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "bonetorchfabric:block/bone_soul_wall_torch"
+    },
+    "facing=north": {
+      "model": "bonetorchfabric:block/bone_soul_wall_torch",
+      "y": 270
+    },
+    "facing=south": {
+      "model": "bonetorchfabric:block/bone_soul_wall_torch",
+      "y": 90
+    },
+    "facing=west": {
+      "model": "bonetorchfabric:block/bone_soul_wall_torch",
+      "y": 180
+    }
+  }
+}

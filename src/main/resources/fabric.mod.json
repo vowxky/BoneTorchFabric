@@ -10,6 +10,9 @@
   "icon": "assets/bonetorchfabric/icon.png",
   "environment": "*",
   "entrypoints": {
+    "fabric-datagen": [
+      "vowxky.bonetorchfabric.data.BonetorchDataGenerator"
+    ],
     "client": [
       "vowxky.bonetorchfabric.client.BonetorchfabricClient"
     ],

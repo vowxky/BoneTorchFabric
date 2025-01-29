@@ -1,3 +1,6 @@
 {
-  "block.bonetorchfabric.bone_torch" : "Bone torch"
+  "block.bonetorchfabric.bone_torch": "Bone Torch",
+  "block.bonetorchfabric.bone_soul_torch": "Soul Bone Torch",
+  "block.bonetorchfabric.bone_wall_torch": "Bone Torch",
+  "block.bonetorchfabric.bone_soul_wall_torch": "Soul Bone Torch"
 }

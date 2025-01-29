@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "B": {
+      "item": "minecraft:bone"
+    },
+    "C": {
+      "tag": "minecraft:coals"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    "C",
+    "B",
+    "S"
+  ],
+  "result": {
+    "count": 4,
+    "id": "bonetorchfabric:bone_soul_torch"
+  }
+}

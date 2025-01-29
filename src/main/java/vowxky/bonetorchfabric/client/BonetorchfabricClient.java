@@ -15,5 +15,7 @@ public class BonetorchfabricClient implements ClientModInitializer {
     public void setupRenderLayers() {
         BlockRenderLayerMap.INSTANCE.putBlock(Bonetorchfabric.BONE_TORCH, RenderLayer.getCutout());
         BlockRenderLayerMap.INSTANCE.putBlock(Bonetorchfabric.WALL_BONE_TORCH, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Bonetorchfabric.BONE_SOUL_TORCH, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(Bonetorchfabric.WALL_BONE_SOUL_TORCH, RenderLayer.getCutout());
     }
 }
